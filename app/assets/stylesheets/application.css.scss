@@ -12,7 +12,44 @@
  *
  *= require_tree .
  *= require_self
+
  */
  
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ html {height: 100%
+ }
+ p,p1,p2,h,h2,h1,h3,label{color:black}
+ .navbar-default {background: rgba(250, 250, 250, 0.4);
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+	border: none;
+	border-radius: 0;
+	.navbar-header{
+	  .navbar-brand{
+	    color:black;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	     }
+
+	}
+	.navbar-link{
+      color:black;
+      }
+ }
+
+ date{
+ font-weigth: 200;
+ }
+ body {
+  background: -webkit-linear-gradient(90deg, #283048 10%, #859398 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #283048 10%, #859398 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #283048 10%, #859398 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #283048 10%, #859398 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #283048 10%, #859398 90%); /* W3C */}
+ placeholder{
+ color:blue
+ }
+  
+  
